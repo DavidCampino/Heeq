@@ -1,0 +1,297 @@
+/* ----- GENERAL ----- */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  margin: 0;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* ----- HEADER ----- */
+
+header {
+  background-color: #d41e1e;
+  height: 80px;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+}
+
+.logo-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 150px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ffffff; 
+  background-color: #d41e1e; 
+  transition: background-color 0.3s ease, transform 0.3s ease; 
+  padding: 20px 20px; 
+  border-radius: 10px;
+  display: inline-block; 
+}
+
+nav ul li a:hover {
+  background-color: #B21818; 
+  transform: scale(1.05); 
+}
+
+
+
+/*BARRA DE BUSQUEDA*/
+
+.search-icon {
+  position: relative;
+  display: flex; 
+  align-items: center; 
+}
+
+.search-icon i {
+  margin-right: 10px; 
+  font-size: 18px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.search-input {
+  width: 0; 
+  padding: 5px 10px; 
+  border: none;
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: #000000;
+  outline: none;
+  transition: width 0.3s ease; 
+}
+
+.search-input.active {
+  width: 200px; 
+}
+
+
+
+
+
+/* ----- BANNER ----- */
+
+.banner {
+  background-color: #000000;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+
+/*PRIMER DIV*/
+.REGISTRO {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;
+  flex-direction: column; /* Cambiar la dirección del flex a columna */
+  background-color: #202020;
+  padding: 30px 30px;
+  border-radius: 40px;
+  margin: 10px auto;
+  max-width: 1400px;
+  height: 150px;
+}
+
+.REGISTRO > div {
+  text-align: left;
+  margin-bottom: 20px; /* Espacio entre los párrafos */
+}
+
+.REGISTRO p {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-left: 17px;
+}
+
+.REGISTRO form {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;
+  margin: 5px;
+}
+
+.REGISTRO button {
+  background-color: #d41e1e;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 50px;
+  border: 1px solid #ffffff00;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.REGISTRO button:hover {
+  background-color: #d64b4b;
+}
+
+
+
+/*SEGUNDO DIV*/
+
+.INFO {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #202020;
+  padding: 30px 30px;
+  border-radius: 40px;
+  margin: 0 auto;
+  max-width: 1400px;
+  height: 100px;
+}
+
+.pImagen {
+  position: relative;
+  top: 40px;
+  align-self: center;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: justify;
+  margin-bottom: 10px;
+  margin: 20px;
+  display: flex; 
+}
+
+
+
+.imgLogoChiquito {
+  border-radius: 5px;
+  width: 110px;
+  position: relative;
+  top: -40px;
+  margin: 20px; 
+  margin-left: -10px;
+}
+
+
+/* tercer div*/
+
+.RESENASTITULO{
+font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;}
+
+.RESENA1 {
+  position: relative;
+  left: 100px;
+  justify-content: left;
+  align-items: center;
+  background-color: #202020;
+  padding: 30px 30px;
+  border-radius: 40px;
+  margin: 0 auto;
+  max-width: 1050px;
+  height: 100px;
+}
+
+.imgRESENA1 {
+  border-radius: 50%;
+  width: 110px;
+  margin: 20px;
+  position: relative;
+  top: -158px;
+  left: -580px;
+}
+
+.RESENA2 {
+  position: relative;
+  left: -100px;
+  justify-content: left;
+  align-items: center;
+  background-color: #202020;
+  padding: 30px 30px;
+  border-radius: 40px;
+  margin: 0 auto;
+  max-width: 1050px;
+  height: 100px;
+}
+
+.imgRESENA2 {
+  border-radius: 50%;
+  width: 110px;
+  margin: 20px;
+  position: relative;
+  top: -158px;
+  left: 580px;
+}
+
+.footer {
+  background-color: #d41e1e;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); 
+}
+
+html{
+  scroll-behavior: smooth;
+}
